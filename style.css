@@ -167,7 +167,7 @@ iframe {
 }
 .single-target {
   width: 284px;
-  height: 219px;
+  height: 260px;
   padding: 40px;
   border-radius: 16px;
   display: flex;
@@ -233,7 +233,12 @@ iframe {
   height: 313px;
   margin: 0 auto;
   border-radius: 16px;
-  background-image: url("assets/handshake.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("assets/handshake.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
